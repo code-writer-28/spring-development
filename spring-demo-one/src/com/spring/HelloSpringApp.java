@@ -7,6 +7,7 @@ public class HelloSpringApp {
 	public static void main(String[] args) {
 
 		// load the spring configuration file
+		// creating a spring container
 		ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext(
 				"applicationContext.xml");
 
